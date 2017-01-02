@@ -29,7 +29,7 @@ public class DriverManagerDatabase {
 
             connection =
                 DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/petshospital", "jsno", "jsno");
+                    "jdbc:mysql://localhost:3306/petshospital", "username", "password");
 
         } catch (SQLException e) {
             e.printStackTrace();
